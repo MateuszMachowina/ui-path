@@ -1,7 +1,7 @@
 # 🤖 Invoice Report Automation – UiPath Bot
 
 This UiPath project automates the generation of invoice reports from pdf invoices using OCR and emails them to a specified recipient. It's structured for easy deployment and reuse.
-Tested with a set of sample invoices, it extracts key details such as transaction, customer and product details. The bot is designed to capture only the fields programmed in the workflow. It will not capture additional fields like VAT ID or others not specifically configured. It may struggle with invoices that have significantly different layouts.
+Tested with a set of sample invoices, it extracts key details such as transaction, customer and product details. Only fields programmed in the bot are captured. Tested on a fixed set of invoice layouts.
 
 ---
 
