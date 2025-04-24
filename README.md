@@ -11,7 +11,7 @@ This repository contains UiPath automation workflows designed to streamline busi
 
 1. Download chosen project folder  
 2. Open the project in **UiPath Studio** and install required packages  
-3. If necessary, create a `.env` file in the root directory with the following content:
+3. If necessary, create a `.env` file in the root directory as in the example:
 
    ```
    VARIABLE=value
