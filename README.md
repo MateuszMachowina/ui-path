@@ -24,7 +24,7 @@ This repository contains UiPath automation workflows designed to streamline busi
 After publishing the project from **UiPath Studio** to **Orchestrator** or locally, you can run it directly from **UiPath Assistant**. To do this:
 1. Open **UiPath Assistant**.
 2. Locate the published project in the Assistant.
-3. Click "Run" to execute the automation.
+3. Click `Run` to execute the automation.
 
 > **Note:** Ensure that your **UiPath Assistant** is properly connected to Orchestrator or has access to the local project.
 
