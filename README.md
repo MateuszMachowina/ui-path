@@ -5,7 +5,9 @@ This repository contains UiPath automation workflows designed to streamline busi
 ## 📂 Contents
 
 - **Invoice OCR to Excel Bot**  
-  Extracts key data from PDF invoices (e.g., Customer, Product, Amounts) using OCR and sends a summary Excel report via email. Recipient email is stored in a `.env` file.  
+  Extracts key data from PDF invoices (e.g., Customer, Product, Amounts) using OCR and sends a summary Excel report via email. Recipient email is stored in a `.env` file.
+- **Daily Briefing Bot**  
+  Sends a daily email summary including weather in Warsaw, currency exchange rates, and top world news headlines. Uses OpenWeatherMap and Google News RSS. Configurable via `.env` file.
 
 ## 🛠 How to Use
 
