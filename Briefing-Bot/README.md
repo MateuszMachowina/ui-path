@@ -1,6 +1,5 @@
 # 🌞 Daily Briefing from UiPath Bot
 
-## 📋 Description
 This project generates a daily briefing containing:
 - Weather forecast in Warsaw
 - Current currency exchange rates
@@ -26,7 +25,7 @@ WEATHER_API=your_OpenWeatherMap_API_key
 RECIPIENT_EMAIL=your_email_address
 ```
  
-4. Run the bot to automatically generate and send the daily briefing email.
+4. Run the bot to automatically generate and send the briefing email.
 
 
 
