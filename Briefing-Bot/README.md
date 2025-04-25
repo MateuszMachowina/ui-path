@@ -27,6 +27,27 @@ RECIPIENT_EMAIL=your_email_address
  
 4. Run the bot to automatically generate and send the briefing email.
 
+## 📊 Flow Diagram
 
+```mermaid
+graph TD
+  A[📥 Start: Load .env file] --> B[🔑 Extract API key & recipient email]
+  B --> C[🌤️ Call OpenWeatherMap API]
+  C --> D[🧾 Parse weather data] --> J1[📦 Add to email body]
+
+  B --> E[💱 Fetch currency rates from NBP]
+  E --> F[🧾 Parse exchange rate data] --> J2[📦 Add to email body]
+
+  B --> G[📰 Fetch Google News RSS]
+  G --> H[🧾 Parse XML feed]
+  H --> I[🗂️ Get first 3 topics] --> J3[📦 Add to email body]
+
+  J1 --> K[🧵 Compile final email body]
+  J2 --> K
+  J3 --> K
+
+  K --> L[📧 Send email via Outlook]
+  L --> M[🏁 End]
+```
 
 
